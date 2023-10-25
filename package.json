@@ -1,0 +1,25 @@
+{
+  "name": "pc-master-server",
+  "version": "1.0.0",
+  "description": "server of pc master",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Kutub Uddin",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.3.0",
+    "mongodb": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "3.0.3",
+    "ts-node-dev": "^2.0.0"
+  }
+}
